@@ -2,7 +2,7 @@
 Contributors: AddSearch
 Tags: search, instant search, site search, page search, category search, custom search, better search, autocomplete, typeahead
 Requires at least: 3.5
-Tested up to: 3.7.1
+Tested up to: 3.8
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -55,15 +55,10 @@ For questions and answers, please see [www.addsearch.com/support/](http://www.ad
 
 AddSearch is free for sites up to 500 pages. For larger sites there are reasonable monthly or annual fees. See details at [www.addsearch.com/pricing/](http://www.addsearch.com/pricing/)
 
-== Screenshots ==
-
-1. AddSearch live on [Arctic Startup](http://www.arcticstartup.com). Results appear after typing just one letter.
-
-2. Another example after typing two letters. Note the screenshots for all sites in the results.
-
-3. The same search on an iPhone 5.
+== Upgrade Notice ==
+This is first version of this plugin.
 
 == Changelog ==
 
-= 1.0 =
-* Initial release.
+= 0.3 =
+* Initial release
