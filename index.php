@@ -9,7 +9,7 @@
   Plugin URI: http://www.addsearch.com/support/wordpress-plugin/
   Description: AddSearch is an instant site search engine for your website. 
   Author: AddSearch Ltd.
-  Version: 0.3
+  Version: 1.0
   Author URI: http://addsearch.com/
  */
 

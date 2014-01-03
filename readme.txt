@@ -41,7 +41,7 @@ Installing AddSearch is really easy, and takes just minutes. Follow these instru
 
 4. Click “Installation”, scroll to the bottom of the page, and copy the Site Key.
 
-5. Go back to your WordPress admin interface and to the AddSearch plugin. Paste the Site Key, and click “Save”. AddSearch will automatically replace your standard search.
+5. Go back to your WordPress admin interface and to the AddSearch plugin. Paste the Site Key, click “Save” and drop AddSearch widget on your site.
 
 6. You’re DONE!
 
