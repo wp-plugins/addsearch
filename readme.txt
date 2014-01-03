@@ -70,3 +70,6 @@ This is first version of this plugin.
 
 = 0.3 =
 * Initial release
+
+= 1.0 =
+* First version
