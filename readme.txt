@@ -43,7 +43,9 @@ Installing AddSearch is really easy, and takes just minutes. Follow these instru
 
 5. Go back to your WordPress admin interface and to the AddSearch plugin. Paste the Site Key, click “Save” and drop AddSearch widget on your site.
 
-6. You’re DONE!
+6. Click on “Appearance” and “Widgets”. Drag the widget called “AddSearch” to where you want the search to appear.
+
+7. You’re DONE!
 
 If you run into any trouble, feel free to shoot us an email at [support@addsearch.com](mailto:support@addsearch.com)
 
@@ -72,4 +74,4 @@ This is first version of this plugin.
 * Initial release
 
 = 1.0 =
-* First version
+* First version, AddSearch Widget
