@@ -1,0 +1,131 @@
+# Copyright (C) 2014 Addsearch Plugin
+# This file is distributed under the same license as the Addsearch Plugin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Addsearch Plugin 1.1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/addsearch\n"
+"POT-Creation-Date: 2014-12-07 08:31:59+00:00\n"
+"PO-Revision-Date: 2015-01-19 21:00+0200\n"
+"Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: addsearch.php:178
+msgid "Settings"
+msgstr "Asetukset"
+
+#: admin/admin-notices.php:23
+msgid "Enter Addsearch Site Key in %ssettings%s page to enable Addsearch."
+msgstr ""
+"Kirjoita Addsearch avainkoodi %sasetukset%s-sivulla, jotta Addsearch-haku "
+"toimii."
+
+#: admin/settings.php:18
+msgid "Addsearch settings"
+msgstr "Addsearch-asetukset"
+
+#: admin/settings.php:18
+msgid "Addsearch"
+msgstr "AddSearch"
+
+#: admin/settings.php:43
+msgid "Addsearch Settings"
+msgstr "Addsearch-asetukset"
+
+#: admin/settings.php:52
+msgid "Your Site Key"
+msgstr "Sivuston avainkoodi"
+
+#: admin/settings.php:68
+msgid "About Addsearch"
+msgstr "Tietoa Addsearch-lisäosasta"
+
+#: admin/settings.php:71
+msgid ""
+"Go to <a href=\"%s\" target=\"_blank\">www.addsearch.com</a> and sign up with "
+"your WordPress website address and e-mail."
+msgstr ""
+"Mene osoitteeseen <a href=\"%s\" target=\"_blank\">www.addsearch.com</a> ja "
+"kirjaudu palveluun, johon tarvitset sähköpostin ja tämän WordPress-sivuston "
+"osoitteen."
+
+#: admin/settings.php:72
+msgid "Open the confirmation e-mail, and from the bottom, copy your Site Key."
+msgstr "Avaa vahvistussähköposti, jonka alareunasta kopioi avainkoodi."
+
+#: admin/settings.php:73
+msgid ""
+"Come back to this page in WordPress. Paste your Site Key above and click "
+"<strong>Save Changes</strong>."
+msgstr ""
+"Tule tälle sivulle takaisin. Liitä avainkoodi ylläolevaan kenttään ja klikkaa "
+"<strong>Tallenna muutokset</strong>."
+
+#: admin/settings.php:74
+msgid ""
+"Go to <strong>Appearance &rarr; Widgets</strong>. Drag the WordPress native "
+"Search Widget to your preferred widget area."
+msgstr ""
+"Mene kohtaan <strong>Ulkoasu &rarr; Vimpaimet</strong>. Rahaa WordPressin Haku-"
+"vimpain mihin tahansa vimpainalueeseen."
+
+#: admin/settings.php:75
+msgid ""
+"If your theme have search somewhere else, it will automatically be replaced by "
+"Addsearch."
+msgstr ""
+"Jos teemassasi on haku jossakin muualla, niin sekin korvautuu Addsearch-haulla."
+
+#: admin/settings.php:76
+msgid "You're done - congrats! :)"
+msgstr "Valmista, onneksi olkoon!"
+
+#. Plugin Name of the plugin/theme
+msgid "AddSearch Instant Search"
+msgstr "Nopea Addsearch-haku"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.addsearch.com/support/wordpress-plugin/"
+msgstr "http://www.addsearch.com/support/wordpress-plugin/"
+
+#. Description of the plugin/theme
+msgid "AddSearch is an instant site search engine for your website."
+msgstr ""
+"AddSearch on nopea hakukone sivuillesi, jossa näet hakutulokset välittömästi."
+
+#. Author of the plugin/theme
+msgid "AddSearch Ltd."
+msgstr "AddSearch Ltd."
+
+#. Author URI of the plugin/theme
+msgid "http://www.addsearch.com/"
+msgstr "http://www.addsearch.com/"
+
+#: admin/settings.php:56
+msgctxt "%s stands for function get_search_form()"
+msgid ""
+"Enter your Site Key. This will replace all search forms in your site with "
+"Addsearch. This means all instances off %s."
+msgstr ""
+"Kirjoita sivuston avainkoodi. Tämä korvaa kaikki hakukentät Addsearch-haulla. "
+"Tämä tarkoittaa kaikkia hakukenttiä, jotka käyttävät WordPressin %s-funktiota."
+
+#: includes/functions.php:31 includes/functions.php:32 includes/functions.php:39
+msgctxt "label"
+msgid "Search for:"
+msgstr "Haku:"
+
+#: includes/functions.php:32
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Haku &hellip;"
+
+#: includes/functions.php:34 includes/functions.php:41
+msgctxt "submit button"
+msgid "Search"
+msgstr "Hae"
