@@ -5,7 +5,7 @@ Contributors: AddSearch, sami.keijonen
 Tags: search, instant search, site search, page search, category search, custom search, better search, autocomplete, typeahead
 Requires at least: 3.9
 Tested up to: 4.1
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -70,6 +70,9 @@ AddSearch is free for sites up to 300 pages (100 standard + 200 bonus). For larg
 3. The same search on an iPhone 5.
 
 == Changelog ==
+
+= 1.1.1 =
+* Added information about a special free plan for Wordpress users
 
 = 1.1.0 =
 * Everything is build again from ground up
