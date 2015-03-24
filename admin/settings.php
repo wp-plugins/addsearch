@@ -69,7 +69,8 @@ function addsearch_options_page() {
 	  					<td>
 							<ol>
 								<li><?php echo sprintf( __( 'Go to <a href="%s" target="_blank">www.addsearch.com</a> and sign up with your WordPress website address and e-mail.', 'addsearch' ), 'http://www.addsearch.com/' ); ?></li>
-								<li><?php _e( 'Open the confirmation e-mail, and from the bottom, copy your Site Key.', 'addsearch' ); ?></li>
+								<li><?php _e( 'Log in to your Dashboard and copy your Site Key from the installation page', 'addsearch' ); ?></li>
+								<li><?php _e( 'As a Wordpress user you are entitled to a special free plan in addition to premium plans. Contact support@addsearch.com to get the free plan activated', 'addsearch' ); ?></li>
 								<li><?php _e( 'Come back to this page in WordPress. Paste your Site Key above and click <strong>Save Changes</strong>.', 'addsearch' ); ?></li>
 								<li><?php _e( 'Go to <strong>Appearance &rarr; Widgets</strong>. Drag the WordPress native Search Widget to your preferred widget area.', 'addsearch' ); ?></li>
 								<li><?php _e( 'If your theme have search somewhere else, it will automatically be replaced by Addsearch.', 'addsearch' ); ?></li>
