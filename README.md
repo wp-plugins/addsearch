@@ -64,11 +64,18 @@ AddSearch is free for sites up to 300 pages. For larger sites there are reasonab
 
 ## Changelog
 
+### 1.1.1
+
+* Fix: Security update for XSS security flaw.
+
 ### 1.1.0
+
 * Everything is build again from ground up
 
 ### 1.0
+
 * First version, AddSearch Widget
 
 ### 0.3
+
 * Initial release

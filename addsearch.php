@@ -3,7 +3,7 @@
  * Plugin Name:       AddSearch Instant Search
  * Plugin URI:        http://www.addsearch.com/support/wordpress-plugin/
  * Description:       AddSearch is an instant site search engine for your website.
- * Version:           1.1.0
+ * Version:           1.1.1
  * Author:            AddSearch Ltd.
  * Author URI:        http://www.addsearch.com/
  * License:           GPL-2.0+
@@ -22,7 +22,7 @@
  * to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
  *
  * @package    Addsearch
- * @version    1.1.0
+ * @version    1.1.1
  * @author     AddSearch Ltd. <support@addsearch.com>
  * @copyright  Copyright (c) 2014, AddSearch Ltd.
  * @license    http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
@@ -81,7 +81,7 @@ final class Addsearch {
 		
 		/* Plugin version. */
 		if ( ! defined( 'ADDSEARCHP_VERSION' ) ) {
-			define( 'ADDSEARCHP_VERSION', '1.1.0' );
+			define( 'ADDSEARCHP_VERSION', '1.1.1' );
 		}
 		
 	}
@@ -152,7 +152,7 @@ final class Addsearch {
 		
 		apply_filters( 'addsearch_query_args', $query_args );
 	
-		wp_enqueue_script( 'addsearch-settings-js', add_query_arg( $query_args, 'https://addsearch.com/js/' ), array(), null, true );
+		wp_enqueue_script( 'addsearch-settings-js', esc_url( add_query_arg( $query_args, 'https://addsearch.com/js/' ) ), array(), null, true );
 		
 	}
 	
@@ -175,7 +175,7 @@ final class Addsearch {
 	*/
 	public static function addsearch_settings_link( $links ) {
 	
-		$addsearch_setting_link = sprintf( '<a href="%s">%s</a>', add_query_arg( array( 'page' => 'addsearch-options' ), admin_url( 'options-general.php' ) ), __( 'Settings', 'addsearch' ) );
+		$addsearch_setting_link = sprintf( '<a href="%s">%s</a>', esc_url( add_query_arg( array( 'page' => 'addsearch-options' ), admin_url( 'options-general.php' ) ) ), __( 'Settings', 'addsearch' ) );
 		array_unshift( $links, $addsearch_setting_link );
 		return $links;
 		
